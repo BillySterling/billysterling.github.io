@@ -386,7 +386,7 @@ body > footer .copyrights {
 
 
 /* ============================================================================= 
-3. Page loadig animation
+3. Page loading animation
 ============================================================================= */
 .no-js .preloader { display: none;  }
 .preloader {
@@ -765,11 +765,10 @@ body > footer .copyrights {
 /* /Mobile menu toggle */
 
 
-
-
 /* ============================================================================= 
 6. Site content
 ============================================================================= */
+
 /* Page header */
 .page-header {
   margin-top: 0;
@@ -827,7 +826,6 @@ body > footer .copyrights {
 .custom-page-content .page-content {
   background-color: #fff;
 }
-
 
 
 /* ============================================================================= 
