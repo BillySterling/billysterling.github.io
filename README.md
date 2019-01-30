@@ -4,4 +4,4 @@ My latest Portfolio for the Georgia Tech Full Stack Web Development Bootcamp.  A
 
 ### This portfolio page is still a work-in-progress and will updated and upgraded as the bootcamp progresses.
 
-https://billysterling.github.io/My-Portfolio/
+https://billysterling.github.io/
