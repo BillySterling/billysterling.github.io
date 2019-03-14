@@ -4,7 +4,7 @@
 * Author URL: http://themeforest.net/user/lmpixels
 * Version: 1.0
 */
-
+/*eslint-env jquery*/
 (function($) {
 "use strict";
     // Subpages resize
@@ -25,7 +25,7 @@
                 itemSelector: 'figure'
             });
 
-            $('.site-main-menu').on("click", "a", function (e) {
+            $('.site-main-menu').on("click", "a", function () {
                 portfolio_grid.shuffle('update');
             });
 
@@ -94,6 +94,7 @@
             // initializing page transition.
             var ptPage = $('.subpages');
             if (ptPage[0]) {
+                // eslint-disable-next-line no-undef
                 PageTransitions.init({
                     menu: 'ul.site-main-menu',
                 });
@@ -142,7 +143,7 @@
         });
 
         // Mobile menu hide on main menu item click
-        $('.site-main-menu').on("click", "a", function (e) {
+        $('.site-main-menu').on("click", "a", function () {
             mobileMenuHide();
         });
 
