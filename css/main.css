@@ -671,7 +671,7 @@ body > footer .copyrights {
 }
 
 .site-main-menu li {
-  display: inline-block;
+/*  display: inline-block; */
   float: left;
   position: relative;
   padding: 0;
@@ -1775,6 +1775,7 @@ body > footer .copyrights {
   background: #f5f5f5;
   border: 1px solid #9e9e9e;
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
   border-radius: 30px;
@@ -2034,7 +2035,7 @@ body > footer .copyrights {
   }
 
   .mobile-site-title {
-    display: inline-block;
+/*    display: inline-block; */
     float: left;
     color: #fff;
     font-size: 18px;
