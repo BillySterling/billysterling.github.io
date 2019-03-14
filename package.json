@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/BillySterling/billysterling.github.io/issues"
   },
-  "homepage": "https://github.com/BillySterling/billysterling.github.io#readme"
+  "homepage": "https://github.com/BillySterling/billysterling.github.io#readme",
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
 }
