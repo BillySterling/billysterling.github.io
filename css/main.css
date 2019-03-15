@@ -313,6 +313,7 @@ textarea.form-control, textarea.form-control:focus {
 /* buttons */
 .btn-primary,
 .btn-secondary,
+.btn-github,
 button, input[type="button"], input[type="submit"] {
   text-transform: uppercase;
   font-family: inherit;
@@ -351,6 +352,26 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 }
 
 .btn-secondary:hover {
+  background-color: rgb(21, 118, 197);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.btn-github {
+  text-transform: none;
+  border: 4px solid #9e9e9e;
+}
+
+.btn-github,
+/*.btn-secondary:hover, */
+.btn-github:focus {
+  /* background-color: #fff; */
+  background-color: #043053;
+  color: #ffffff;
+  /* color: #212121; */
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3); 
+}
+
+.btn-github:hover {
   background-color: rgb(21, 118, 197);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.3);
 }
@@ -1138,6 +1159,10 @@ body > footer .copyrights {
 
 .download-resume {
   margin-top: 50px;
+}
+
+.download-github {
+  margin-top: 2px;
 }
 
 /* =======================================
