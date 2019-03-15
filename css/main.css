@@ -788,6 +788,16 @@ body > footer .copyrights {
   color: #043053;
 }
 
+.skill-block-title h3 {
+  font-size: 21px;
+  text-align: center;
+  margin: 5px 0 25px;
+}
+
+.skill-block-title h3 span {
+  color: #043053;
+}
+
 .custom-page-content .block {
   margin-bottom: 30px;
 }
@@ -1060,6 +1070,7 @@ body > footer .copyrights {
   font-size: 0.8em;
   line-height: 1.1em;
   position: relative; 
+  text-align: center;
   margin: 0 0 5px;
 }
 
